@@ -2,7 +2,7 @@
 
 ## table of contents
 1. description 
-    1.1 technologies
+    1. technologies
 2. setup/installation
 3. demo
 
@@ -13,4 +13,4 @@ building
 
 ## setup/installation
 
-## ## demo
+## demo
