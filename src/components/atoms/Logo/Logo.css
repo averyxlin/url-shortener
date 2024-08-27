@@ -1,0 +1,25 @@
+.logo {
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    font-size: 36px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+  
+.logo-url {
+    background-color: #144579; 
+    font-weight: 700;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.logo-shortener {
+    background-color: #fff; 
+    font-weight: 400;
+    padding: 7px 2px;
+    color: #144579;
+    border-top: 3px solid #144579; 
+    border-bottom: 3px solid #144579; 
+    margin-left: 8px;
+}
