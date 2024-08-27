@@ -1,15 +1,14 @@
 import React from 'react';
 import TopBarLink from '../TopBarLink/TopBarLink';
-import TopBarDropdown from '../TopBarDropdown/TopBarDropdown';
+import './TopBarItem.css'
 
-const TopBarItem = ({ hasDropdown }) => {
+const TopBarItem = ({ title, hasDropdown }) => {
   return (
     <div className="top-bar-item">
-      {hasDropdown ? (
-        <TopBarDropdown />
-      ) : (
-        <TopBarLink />
-      )}
+      <TopBarLink 
+        title={title}
+        hasDropdown={hasDropdown}
+      />
     </div>
   );
 };

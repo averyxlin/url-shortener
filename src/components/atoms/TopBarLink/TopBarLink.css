@@ -1,16 +1,16 @@
 .top-bar-link {
     cursor: pointer;
     align-items: center;
-    height: 100%;
-    padding-bottom: 20px;
+    height: 100%;;
     padding-left: 10px;
-    padding-right: 15px;
+    padding-right: 10px;
     font-weight: 500;
     line-height: 14px;
-    display: flex
-}
-
-.top-bar-link-title {
+    display: flex;
+    transition: background-color 0.2s;
+  }
+  
+  .top-bar-link-title {
     vertical-align: top;
     color: #222;
     text-align: left;
@@ -18,6 +18,28 @@
     margin-right: auto;
     padding: 20px;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     position: relative;
-}
+  }
+
+  .top-bar-link-title-text {
+    display: inline-block;
+  }
+
+  .top-bar-link-title-icon {
+    display: flex;
+    margin-left: 8px;
+  }
+  
+  .top-bar-link:hover {
+    background-color: rgba(56, 152, 236, 0.2); 
+  }
+  
+  .top-bar-link:hover .top-bar-link-title {
+    color: #3898ec; 
+  }
+
+  .top-bar-link:hover .top-bar-link-title-icon {
+    transform: rotate(180deg);
+    transition: transform 0.4s;
+  }

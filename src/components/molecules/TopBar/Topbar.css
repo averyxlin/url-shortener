@@ -1,0 +1,7 @@
+.top-bar {
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    margin-left: auto;
+    display: flex;
+}
